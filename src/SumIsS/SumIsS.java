@@ -36,11 +36,4 @@ public class SumIsS {
         //
         return resultList;
     }
-
-    public static void main(String[] args) {
-        int[] array = {1,2,3,4,5,6};
-        SumIsS sumIsS = new SumIsS();
-        ArrayList<Integer> list = sumIsS.findNumbersWithSum(array, 9);
-        System.out.println(list);
-    }
 }

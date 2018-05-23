@@ -2,9 +2,10 @@ package LeastNumbers;
 
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.PriorityQueue;
 
-//最小的k个数
+//最小的k个数(topk问题)
 public class GetLeastNumbers {
 
     /**
@@ -45,5 +46,11 @@ public class GetLeastNumbers {
             resultList.add(integer);
         }
         return resultList;
+    }
+
+    public static void main(String[] args) {
+        int[] array = {1,2};
+        int[] newArray = array;
+        newArray[0] = 3;
     }
 }

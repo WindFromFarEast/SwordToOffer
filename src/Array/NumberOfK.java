@@ -35,6 +35,7 @@ public class NumberOfK {
             int mid = left + (right - left) / 2;
             //先判断中间的数是否为k
             if (array[mid] == k) {
+                //中间数为k
                 if (mid == 0) {
                     //中间数为k并且也是第一个数时直接返回就可以
                     return mid;

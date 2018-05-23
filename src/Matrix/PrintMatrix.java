@@ -7,8 +7,8 @@ public class PrintMatrix {
     //顺时针打印矩阵,不一定是N × N的矩阵,也有可能是M × N的矩阵
     public ArrayList<Integer> printMatrix(int [][] matrix) {
         //获取矩阵的行和列
-        int columns = matrix[0].length;//列数
         int rows = matrix.length;//行数
+        int columns = matrix[0].length;//列数
         //鲁棒性检查
         if (rows <= 0 || columns <= 0) {
             return null;
